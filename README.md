@@ -20,13 +20,13 @@ We will keep these in a list, whose basic constructor is `make_stack`:
 
 ```
 def make_stack(numElements):
-    return (0, [None] * numElements, numElements)
+    return [0, [None] * numElements, numElements]
 ```
 
 For example, one example stack could be:
 
 ```
-(2, [-5, 7, None, None, None, None], 6)
+[2, [-5, 7, None, None, None, None], 6]
 ```
 
 Observe that the `2` represents the next *available* space, and in

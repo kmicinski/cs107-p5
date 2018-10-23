@@ -75,7 +75,7 @@ in `s`.
 ## Task 2: Implement `pop`
 
 You must implement `pop`, which removes the top element from the
-stack. 
+stack and returns it.
 
 - `pop` must set the removed element in the array to `None` (rather
   than what was there before).
